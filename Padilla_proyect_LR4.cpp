@@ -58,6 +58,7 @@ void askSecondNumber(int& num2){
 }
 string addRight(int& num1,int& num2){
     //Developed by Victor Padilla - branch branch_fun_3
+    return to_string(num2)+to_string(num1);
 }
 string addLefth(int& num1,int& num2){
     //Developed by Victor Padilla - branch branch_fun_4
