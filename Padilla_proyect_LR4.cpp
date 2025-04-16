@@ -52,6 +52,14 @@ int main(){
 }
 void askFirstNumber(int& num1){
     //Developed by Victor Padilla - branch branch_fun_1
+    GOBACK:
+    cout<<"Enter a natural number: ";
+    cin>>num1;
+    if (num1<0)
+    {
+        cout<<"This is not a natural number, try again\n";
+        goto GOBACK;
+    }
 }
 void askSecondNumber(int& num2){
     //Developed by Victor Padilla - branch branch_fun_2
