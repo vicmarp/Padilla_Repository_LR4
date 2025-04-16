@@ -63,6 +63,14 @@ void askFirstNumber(int& num1){
 }
 void askSecondNumber(int& num2){
     //Developed by Victor Padilla - branch branch_fun_2
+    GOBACK:
+    cout<<"Enter a number between 1 and 9: ";
+    cin>>num2;
+    if (num2<1 || num2>9)
+    {
+        cout<<"This is not a correct number, try again\n";
+        goto GOBACK;
+    }
 }
 string addRight(int& num1,int& num2){
     //Developed by Victor Padilla - branch branch_fun_3
